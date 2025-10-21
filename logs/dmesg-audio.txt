@@ -1,0 +1,33 @@
+[    0.085871] software IO TLB: area num 8.
+[    0.682859] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.759376] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.759378] software IO TLB: mapped [mem 0x00000000ad587000-0x00000000b1587000] (64MB)
+[    1.065221] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[    1.065245] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[   14.765244] snd_hda_intel 0000:00:1f.3: Digital mics found on Skylake+ platform, using SOF driver
+[   15.006983] sof-audio-pci-intel-cnl 0000:00:1f.3: enabling device (0000 -> 0002)
+[   15.007301] sof-audio-pci-intel-cnl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if 0x040100
+[   15.951627] sof-audio-pci-intel-cnl 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[   15.960301] sof-audio-pci-intel-cnl 0000:00:1f.3: use msi interrupt mode
+[   16.031120] sof-audio-pci-intel-cnl 0000:00:1f.3: hda codecs found, mask 5
+[   16.031131] sof-audio-pci-intel-cnl 0000:00:1f.3: using HDA machine driver skl_hda_dsp_generic now
+[   16.031136] sof-audio-pci-intel-cnl 0000:00:1f.3: BT link detected in NHLT tables: 0x0
+[   16.031141] sof-audio-pci-intel-cnl 0000:00:1f.3: DMICs detected in NHLT tables: 4
+[   16.046532] sof-audio-pci-intel-cnl 0000:00:1f.3: Firmware paths/files for ipc type 0:
+[   16.046539] sof-audio-pci-intel-cnl 0000:00:1f.3:  Firmware file:     intel/sof/sof-cnl.ri
+[   16.046542] sof-audio-pci-intel-cnl 0000:00:1f.3:  Topology file:     intel/sof-tplg/sof-hda-generic-4ch.tplg
+[   16.053265] sof-audio-pci-intel-cnl 0000:00:1f.3: Firmware info: version 2:2:0-57864
+[   16.053275] sof-audio-pci-intel-cnl 0000:00:1f.3: Firmware: ABI 3:22:1 Kernel ABI 3:23:1
+[   16.960255] sof-audio-pci-intel-cnl 0000:00:1f.3: cl_dsp_init: timeout with rom_status_reg (0x80000) read
+[   16.960266] sof-audio-pci-intel-cnl 0000:00:1f.3: ------------[ DSP dump start ]------------
+[   16.960268] sof-audio-pci-intel-cnl 0000:00:1f.3: Boot iteration failed: 3/3
+[   16.960270] sof-audio-pci-intel-cnl 0000:00:1f.3: fw_state: SOF_FW_BOOT_IN_PROGRESS (3)
+[   16.960276] sof-audio-pci-intel-cnl 0000:00:1f.3: 0x06000021: module: ROM, state: CSE_IPC_RESET_PHASE_1, waiting for: CSE_CSR, running
+[   16.960288] sof-audio-pci-intel-cnl 0000:00:1f.3: extended rom status:  0x6000021 0x0 0x0 0x0 0x0 0x0 0x1811102 0x0
+[   16.960290] sof-audio-pci-intel-cnl 0000:00:1f.3: ------------[ DSP dump end ]------------
+[   16.960734] sof-audio-pci-intel-cnl 0000:00:1f.3: error: dsp init failed after 3 attempts with err: -110
+[   16.960756] sof-audio-pci-intel-cnl 0000:00:1f.3: Failed to start DSP
+[   16.960761] sof-audio-pci-intel-cnl 0000:00:1f.3: error: failed to boot DSP firmware -110
+[   17.011719] sof-audio-pci-intel-cnl 0000:00:1f.3: error: hda_dsp_core_reset_enter: timeout on HDA_DSP_REG_ADSPCS read
+[   17.011728] sof-audio-pci-intel-cnl 0000:00:1f.3: error: dsp core reset failed: core_mask f
+[   17.309055] sof-audio-pci-intel-cnl 0000:00:1f.3: error: sof_probe_work failed err: -110
