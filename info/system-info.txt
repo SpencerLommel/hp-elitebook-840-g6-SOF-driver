@@ -1,0 +1,19 @@
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.1 present.
+
+Handle 0x0002, DMI type 1, 27 bytes
+System Information
+	Manufacturer: HP
+	Product Name: HP EliteBook 840 G6
+	Version: SBKPF
+	Serial Number: 5CG01026RB
+	UUID: f7dfec3d-e908-7016-397d-1fc3ab82cb48
+	Wake-up Type: Power Switch
+	SKU Number: 8UT41US#ABA
+	Family: 103C_5336AN HP EliteBook
+
+Handle 0x001C, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+

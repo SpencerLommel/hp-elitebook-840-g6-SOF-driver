@@ -1,0 +1,7 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 003: ID 06cb:00b7 Synaptics, Inc. Fingerprint reader [HP G6]
+Bus 001 Device 004: ID 0408:5373 Quanta Computer, Inc. HP HD Camera
+Bus 001 Device 005: ID 8087:0029 Intel Corp. AX200 Bluetooth
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub

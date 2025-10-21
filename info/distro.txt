@@ -1,0 +1,4 @@
+Distributor ID:	Ubuntu
+Description:	Ubuntu 25.04
+Release:	25.04
+Codename:	plucky
